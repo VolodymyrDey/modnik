@@ -48,3 +48,29 @@ p.Zalman{
 .foto{
   padding-top:80px;
 }
+
+.send_form{
+  color: #000000;
+  margin-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #b1b1b1;
+}
+
+.e-mail_input{
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  background-color: inherit;
+  height: 25px;
+  width: 400px;
+  font-size: 16px;
+  text-align: inherit;
+}
+::-webkit-input-placeholder {color:#000;}
+
+.send_button{
+  height: 25px;
+  border: none;
+  background-color: inherit;
+}

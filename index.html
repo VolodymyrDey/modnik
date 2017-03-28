@@ -15,6 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -102,25 +103,16 @@
             </div>
         </div>
         <!-- form -->
-        <div class="row kolaps_row_col">
-            <div class="col-md-4">
-                <form class="form-signin" role="form">
-                    <h2 class="form-signin-heading">Вхід</h2>
-                    <label for="inputEmail" class="sr-only">Імейл</label>
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Імейл" required autofocus>
-                    <label for="inputPassword" class="sr-only">Пароль</label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Пароль" required>
-                    <div class="checkbox">
-                        <label>
-            <input type="checkbox" value="remember-me"> Запам'ятати мене
-          </label>
-                    </div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Зареєструватись</button>
-                </form>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 send_form">
+          <h3>Send a message</h3>
+          <form class="form-inline">
+            <input type="email" class="e-mail_input" placeholder="Enter e-mail address:" id="e-mail">
+            <button type="button" name="button" class="send_button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          </form>
         </div>
     </div>
-
     <!-- viewport для браузера IE10, це зроблено щоб виправити помилку для Surface/desktop Windows 8 -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
