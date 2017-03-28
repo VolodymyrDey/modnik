@@ -1,6 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   margin-bottom: 2cm;
+  text-align: justify;
 }
 
 a.navbar-brand.logo {
@@ -21,19 +22,29 @@ a.navbar-brand.logo {
 .img_hz {
     width: 100%;
 }
+
 .kolaps{
   margin:75px 60px 50px 60px;
   color: #626262
 }
+
+.kolaps_row_col{
+  margin:0px 45px 0px 45px;
+  color: #626262
+}
+
 .Zalman{
   color: #b4ad9e;
 }
+
 p.gorizont {
-padding-top:80px;
+  padding-top:80px;
 }
+
 p.Zalman{
   padding-top:30px;
 }
+
 .foto{
   padding-top:80px;
 }
